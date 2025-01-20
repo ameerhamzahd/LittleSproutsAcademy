@@ -27,6 +27,10 @@ h5 {
     font-size: 1rem;
 }
 
+h6 {
+    font-size: 2.6rem;
+}
+
 #orange,
 #orange-title {
     color: rgba(254, 163, 1, 1);
@@ -55,7 +59,7 @@ header>nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 25px 150px;
+    padding: 25px 125px;
 }
 
 .navbar-left {
@@ -123,7 +127,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 25px 150px;
+    padding: 25px 125px;
 }
 
 .banner-details {
@@ -166,7 +170,7 @@ a {
     align-items: center;
     background-image: url(./resources/assets/bg.png);
     background-position: bottom left;
-    margin: 25px 150px 0px;
+    margin: 25px 125px 0px;
 }
 
 .curriculum {
@@ -270,7 +274,7 @@ a {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top right;
-    padding: 25px 100px 0px;
+    padding: 25px 125px 0px;
 }
 
 #stories>h3, #stories .stories-btn {
@@ -306,7 +310,6 @@ a {
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     margin: 50px 0px;
-    background: none;
 }
 
 .stories-left-contents-cards {
@@ -318,6 +321,7 @@ a {
     width: 540px;
     height: 630px;
     border-radius: 15px;
+    background-color: rgba(255, 255, 255, 1);
 }
 
 .stories-left-contents-cards>img {
@@ -365,6 +369,7 @@ a {
     width: 290px;
     height: 300px;
     border-radius: 15px;
+    background-color: rgba(255, 255, 255, 1);
 }
 
 .stories-right-contents-cards>img {
@@ -428,3 +433,48 @@ a {
     padding: 25px;
 }
 
+/* Footer */
+
+footer
+{
+    background-color: rgba(1, 172, 253, 1);
+    color: rgba(255, 255, 255, 1);
+    padding: 50px 125px;
+}
+
+.footer {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.footer-left-heading, .footer-middle-heading, .footer-right-heading {
+    padding: 20px 0px;
+}
+
+.footer-left-heading {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.footer-left-info {
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.footer-middle-info a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    opacity: 75%;
+}
+
+.footer-middle-info a:hover {
+    color: rgba(17, 17, 17, 1);
+}
+
+.footer-middle-info a, .footer-left>p {
+    opacity: 75%;
+}

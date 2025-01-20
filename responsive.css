@@ -31,11 +31,11 @@
         width: 100%;
     }
 
-    #curriculum, #stories {
-        margin: 25px;
+    #curriculum{
+        padding: 25px;
     }
 
-    .curriculum, .stories-right, .stories {
+    .curriculum, .stories-right, .stories, .footer {
         grid-template-columns: repeat(1, 1fr);
     }
 
@@ -43,11 +43,19 @@
         display: none;
     }
 
+    #stories, footer {
+        padding: 50px 25px;
+    }
+
     .stories-left-contents-cards {
         display: none;
     }
 
-    .stories {
-        grid-template-columns: repeat(1, 1fr);
+    .footer-middle-heading>h1, .footer-right-heading>h1 {
+        display: inline;
+    }
+
+    .footer {
+        justify-items: flex-start;
     }
 }
