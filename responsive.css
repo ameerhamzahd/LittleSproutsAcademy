@@ -1,0 +1,29 @@
+@media screen and (max-width: 576px) {
+    header>nav {
+        padding: 25px;
+        border: 1px solid rgba(254, 163, 1, 1);
+    }
+
+    .nav-links,
+    .navbar-right,
+    h1 {
+        display: none;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .banner {
+        flex-direction: column-reverse;
+        padding: 25px;
+    }
+
+    .banner-details {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}

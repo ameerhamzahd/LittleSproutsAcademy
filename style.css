@@ -1,8 +1,152 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
     margin: 0;
     padding: 0;
-    font-family: ;
+    font-family: Quicksand;
 }
 
+h1 {
+    font-size: 1.5rem;
+}
+
+h2 {
+    font-size: 3.5rem;
+}
+
+#orange, #orange-title {
+    color: rgba(254, 163, 1, 1);
+}
+
+#blue, #blue-title {
+    color: rgba(1, 172, 253, 1);
+}
+
+#skyblue {
+    color: rgba(5, 212, 223, 1);
+}
+
+#violet {
+    color: rgba(93, 88, 239, 1);
+}
+
+/* Header */
+header {
+    background-color: white;
+}
+
+header>nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 100px;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: rgba(66, 66, 66, 1);
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+#orange:hover {
+    color: #333;
+}
+
+#blue:hover {
+    color: #333;
+}
+
+#skyblue:hover {
+    color: #333;
+}
+
+#violet:hover {
+    color: #333;
+}
+
+.btn {
+    background-color: rgba(254, 163, 1, 1);
+    color: whitesmoke;
+    border-radius: 40px;
+    border: none;
+    width: 195px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.btn:hover {
+    background-color: whitesmoke;
+    color: rgba(254, 163, 1, 1);
+    cursor: pointer;
+    border: 1px solid rgba(254, 163, 1, 1);
+    transition: 0.5s ease all;
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.hamburger span {
+    width: 25px;
+    height: 3px;
+    background-color: rgba(66, 66, 66, 1);
+    border-radius: 3px;
+}
+
+/* Banner */
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 100px;
+}
+
+.banner-details {
+    max-width: 640px;
+}
+
+.description {
+    font-size: 1.25rem;
+    padding-top: 25px;
+    color: rgba(17, 17, 17, 1);
+    font-weight: regular;
+    text-align: justify;
+}
+
+.banner-btn {
+    background-color: rgba(17, 17, 17, 1);
+    color: whitesmoke;
+    border-radius: 12px;
+    margin: 25px 0;
+    border: none;
+    width: 200px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.banner-btn:hover {
+    background-color: whitesmoke;
+    color: rgba(17, 17, 17, 1);
+    cursor: pointer;
+    border: 1px solid rgba(17, 17, 17, 1);
+    transition: 0.5s ease all;
+}
