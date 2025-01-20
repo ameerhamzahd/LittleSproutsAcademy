@@ -14,6 +14,14 @@ h2 {
     font-size: 3.5rem;
 }
 
+h3 {
+    font-size: 2.75rem;
+}
+
+h4 {
+    font-size: 1.25rem;
+}
+
 #orange, #orange-title {
     color: rgba(254, 163, 1, 1);
 }
@@ -31,6 +39,7 @@ h2 {
 }
 
 /* Header */
+
 header {
     background-color: white;
 }
@@ -54,26 +63,14 @@ header>nav {
     gap: 30px;
 }
 
-.nav-links a {
+a {
     text-decoration: none;
     color: rgba(66, 66, 66, 1);
     font-size: 1rem;
     font-weight: bold;
 }
 
-#orange:hover {
-    color: #333;
-}
-
-#blue:hover {
-    color: #333;
-}
-
-#skyblue:hover {
-    color: #333;
-}
-
-#violet:hover {
+#orange:hover, #blue:hover, #skyblue:hover, #violet:hover  {
     color: #333;
 }
 
@@ -148,5 +145,106 @@ header>nav {
     color: rgba(17, 17, 17, 1);
     cursor: pointer;
     border: 1px solid rgba(17, 17, 17, 1);
+    transition: 0.5s ease all;
+}
+
+/* Curriculum */
+
+#curriculum {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(./resources/assets/bg.png);
+    margin: 25px 100px 0px;
+}
+
+.curriculum {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin: 50px 0 0;
+}
+
+.curriculum-contents-cards-01 {
+    background: linear-gradient(#DEF5FF, #ffffff);
+    display: flex;
+    flex-direction: column;
+    padding: 25px 15px;
+    gap: 25px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    justify-content: center;
+    width: 365px;
+    height: 400px;
+}
+
+.curriculum-contents-cards-02 {
+    background: linear-gradient(#FFF4DC , #ffffff);
+    display: flex;
+    flex-direction: column;
+    padding: 25px 15px;
+    gap: 25px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    justify-content: center;
+    width: 365px;
+    height: 400px;
+}
+
+.curriculum-contents-cards-03 {
+    background: linear-gradient(#F2E8FF , #ffffff);
+    display: flex;
+    flex-direction: column;
+    padding: 25px 15px;
+    gap: 25px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    justify-content: center;
+    width: 365px;
+    height: 400px;
+}
+
+.curriculum-contents-cards-01:hover, .curriculum-contents-cards-02:hover, .curriculum-contents-cards-03:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.curriculum-contents-cards-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.curriculum-contents-cards-images > img {
+    width: 135px;
+    height: 135px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.curriculum-contents-cards-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.curriculum-contents-cards-details-p {
+    font-size: 1rem;
+    padding: 25px 0px;
+    text-align: center;
+}
+
+.curriculum-btn {
+    margin: 50px;
+    display: flex;
+    gap: 5px;
+}
+
+.curriculum-btn-left:hover svg, .curriculum-btn-right:hover svg {
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
     transition: 0.5s ease all;
 }

@@ -26,4 +26,20 @@
         align-items: center;
         text-align: center;
     }
+
+    .banner-image>img {
+        width: 100%;
+    }
+
+    #curriculum {
+        margin: 25px;
+    }
+
+    .curriculum {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .curriculum-btn {
+        display: none;
+    }
 }
