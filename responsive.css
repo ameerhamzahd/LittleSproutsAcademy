@@ -31,15 +31,23 @@
         width: 100%;
     }
 
-    #curriculum {
+    #curriculum, #stories {
         margin: 25px;
     }
 
-    .curriculum {
+    .curriculum, .stories-right, .stories {
         grid-template-columns: repeat(1, 1fr);
     }
 
     .curriculum-btn {
         display: none;
+    }
+
+    .stories-left-contents-cards {
+        display: none;
+    }
+
+    .stories {
+        grid-template-columns: repeat(1, 1fr);
     }
 }
