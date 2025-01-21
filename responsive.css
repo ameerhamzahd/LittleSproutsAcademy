@@ -31,19 +31,24 @@
         width: 100%;
     }
 
-    #curriculum{
+    #curriculum, #stories {
         padding: 25px;
     }
 
-    .curriculum, .stories-right, .stories, .footer {
+    .curriculum, .stories, .footer {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .stories-right {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
     }
 
     .curriculum-btn {
         display: none;
     }
 
-    #stories, footer {
+    footer {
         padding: 50px 25px;
     }
 
